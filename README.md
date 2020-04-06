@@ -39,24 +39,10 @@ Isso significa que irei executar os testes utilizando o `mocha`; já o `--requir
 
 ![](mocha-test.gif)
 
-## Estrutura do Projeto
+Para ver o Stryker-Mutator em ação, execute o comando:
 
-.
-├── reports  
-│   └── mutation  
-│       └── html  
-│           ├── bind-mutation-test-report.js  
-│           ├── index.html  
-│           ├── mutation-test-elements.js  
-│           └── stryker-80x80.png  
-├── src  
-│   ├── app.ts  
-│   └── Queue.ts  
-├── test  
-│   └── queue.spec.ts  
-├── .gitignore  
-├── package-lock.json  
-├── package.json  
-├── README.md  
-├── stryker.conf.js  
-└── tsconfig.json
+    stryker run
+
+![](stryker-mutator-test.gif)
+
+Espero ter contriuido de algumar forma para o conhecimento de vocês!!! Até a próxima... tchau!!!
