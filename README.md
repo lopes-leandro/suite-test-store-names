@@ -1,4 +1,6 @@
-Este projeto, tem como objetivo demonstrar a utilização da suite de teste (**Mocha**, **Chai** e **Stryker Mutator**) em projetos em **Node.js**.
+# Suite de Teste para Node.js
+
+Este projeto, tem como objetivo demonstrar a utilização das ferramentas (**Mocha**, **Chai** e **Stryker Mutator**) em projetos em **Node.js**.
 
 Para saber mais sobre a suite de teste utilizada, consulte a documentação dos fornecedores:
  - [mocha](https://mochajs.org/api/)
@@ -12,7 +14,7 @@ Neste projeto, utilizei um armazenamento em memória que representa uma lista de
  - **push()**: que adiciona um novo elemento a lista
  - **isEmpty()**: que verifica se a lista está vazia
  - **size()**: que retorna a quantidade de elementos na lista
-Com base nessa classe genérica, criei alguns testes para validar operações que o programa deve ser capaz de executar em `test/queue.spec.ts`.
+Com base na classe genérica, criei alguns testes para validar operações que o programa deve ser capaz de executar em `test/queue.spec.ts`.
 
 Antes de realizar o download do projeto, instale globalmente os CLI's necessários para a execução dos testes.
 
