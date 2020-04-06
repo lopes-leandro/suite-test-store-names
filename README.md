@@ -1,4 +1,4 @@
-Este projeto, tem como objetivo demonstrar a utilização em conjunto da suite de teste (**Mocha**, **Chai** e **Stryker Mutator**) para projetos em **Node.js**.
+Este projeto, tem como objetivo demonstrar a utilização da suite de teste (**Mocha**, **Chai** e **Stryker Mutator**) em projetos em **Node.js**.
 
 Para saber mais sobre a suite de teste utilizada, consulte a documentação de cada fornecedor:
 [mocha](https://mochajs.org/api/)
