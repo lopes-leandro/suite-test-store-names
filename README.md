@@ -1,9 +1,9 @@
 Este projeto, tem como objetivo demonstrar a utilização da suite de teste (**Mocha**, **Chai** e **Stryker Mutator**) em projetos em **Node.js**.
 
-Para saber mais sobre a suite de teste utilizada, consulte a documentação de cada fornecedor:
-[mocha](https://mochajs.org/api/)
-[chai](https://www.chaijs.com/api/)
-[stryker-mutator](https://stryker-mutator.io/)
+Para saber mais sobre a suite de teste utilizada, consulte a documentação dos fornecedores:
+ - [mocha](https://mochajs.org/api/)
+ - [chai](https://www.chaijs.com/api/)
+ - [stryker-mutator](https://stryker-mutator.io/)
 
 Neste projeto, utilizei um armazenamento em memória que representa uma lista de nomes (preenchi essa lista com os nomes das pessoas da minha antiga equipe cujo amei trabalhar) de pessoas, através de uma classe genérica `Queue` e algumas operações como:
 
