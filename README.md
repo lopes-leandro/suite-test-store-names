@@ -37,6 +37,8 @@ Ao executar o comando ***npm test***, na verdade, você estará executando o com
     mocha --require ts-node/register test/**/*.spec.ts
 Isso significa que irei executar os testes utilizando o `mocha`; já o `--require ts-node/register`, significa que vamos utilizar o Typescript como o transpilador em tempo de execução e; `test/**/*spec.ts` siginifica que nossos testes estão na paste `test` sob o nome de arquivos `*.spec.ts`
 
+![](mocha-test.gif)
+
 ## Estrutura do Projeto
 
 .
