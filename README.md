@@ -1,5 +1,7 @@
 # Suite de Teste para Node.js
 
+[![Mutation testing badge](https://img.shields.io/endpoint?style=flat&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2Flopes-leandro%2Fsuite-test-store-names%2Fmaster)](https://dashboard.stryker-mutator.io/reports/github.com/lopes-leandro/suite-test-store-names/master)
+
 Este projeto, tem como objetivo demonstrar a utilização das ferramentas (**Mocha**, **Chai** e **Stryker Mutator**) em projetos em **Node.js**.
 
 Para saber mais sobre a suite de teste utilizada, consulte a documentação dos fornecedores:
