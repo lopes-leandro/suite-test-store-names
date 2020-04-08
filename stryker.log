@@ -1,0 +1,155 @@
+02:51:04 (7352) INFO ConfigReader Using stryker.conf.js
+02:51:05 (7352) DEBUG BroadcastReporter Broadcasting to reporters ["clear-text","progress","dots","dashboard","html"]
+02:51:04 (7352) DEBUG ConfigReader Loading config C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\stryker.conf.js
+02:51:04 (7352) DEBUG ConfigReader Loaded config: {
+  "mutate": [
+    "src/**/*.ts"
+  ],
+  "logLevel": "debug",
+  "fileLogLevel": "trace",
+  "timeoutMS": 5000,
+  "timeoutFactor": 1.5,
+  "plugins": [
+    "@stryker-mutator/*"
+  ],
+  "reporters": [
+    "clear-text",
+    "progress",
+    "dots",
+    "dashboard",
+    "html"
+  ],
+  "coverageAnalysis": "perTest",
+  "testRunner": "mocha",
+  "mutator": "typescript",
+  "transpilers": [
+    "typescript"
+  ],
+  "maxConcurrentTestRunners": null,
+  "symlinkNodeModules": true,
+  "thresholds": {
+    "break": null,
+    "high": 80,
+    "low": 60
+  },
+  "allowConsoleColors": true,
+  "dashboard": {
+    "baseUrl": "https://dashboard.stryker-mutator.io/api/reports",
+    "reportType": "full"
+  },
+  "tempDirName": ".stryker-tmp",
+  "packageManager": "npm",
+  "testFramework": "mocha",
+  "tsconfigFile": "tsconfig.json",
+  "configFile": "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\stryker.conf.js"
+}
+02:51:04 (7352) DEBUG PluginLoader Loading @stryker-mutator/* from C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator
+02:51:04 (7352) DEBUG PluginLoader Loading plugin "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\mocha-framework" (matched with expression @stryker-mutator/*)
+02:51:04 (7352) DEBUG PluginLoader Loading plugin "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\mocha-runner" (matched with expression @stryker-mutator/*)
+02:51:04 (7352) DEBUG PluginLoader Loading plugin "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\typescript" (matched with expression @stryker-mutator/*)
+02:51:04 (7352) DEBUG PluginLoader Loading plugins C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\mocha-framework
+02:51:04 (7352) DEBUG PluginLoader Loading plugins C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\mocha-runner
+02:51:04 (7352) DEBUG PluginLoader Loading plugins C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\typescript
+02:51:05 (7352) DEBUG PluginLoader Loading plugins C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\core\src\reporters\index.js
+02:51:05 (7352) DEBUG MochaOptionsLoader Mocha >= 6 detected. Using mocha's `loadOptions` to load mocha options
+02:51:05 (7352) TRACE MochaOptionsLoader Mocha: loadOptions([]) => {"_":[],"diff":true,"config":false,"package":false,"opts":false,"extension":["js","cjs","mjs"],"reporter":"spec","R":"spec","slow":75,"s":75,"timeout":2000,"t":2000,"timeouts":2000,"ui":"bdd","u":"bdd","watch-ignore":["node_modules",".git"]}
+02:51:05 (7352) DEBUG MochaOptionsLoader Loaded options: {
+  "extension": [
+    "js",
+    "cjs",
+    "mjs"
+  ],
+  "timeout": 2000,
+  "ui": "bdd"
+}
+02:51:05 (7352) INFO TypescriptConfigEditor Loading tsconfig file C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\tsconfig.json
+02:51:05 (7352) INFO InputFileResolver Found 2 of 10 file(s) to be mutated.
+02:51:05 (7352) DEBUG InputFileResolver All input files: [
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\src\\Store.ts",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\stryker.log",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\test\\store.spec.ts",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\.gitignore",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\.vscode\\launch.json",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\README.md",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\package.json",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\src\\app.ts",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\stryker.conf.js",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\tsconfig.json"
+]
+02:51:05 (7352) DEBUG InputFileResolver Files to mutate: [
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\src\\Store.ts",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\src\\app.ts"
+]
+02:51:05 (7352) DEBUG TemporaryDirectory Using temp directory "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\.stryker-tmp"
+02:51:05 (7352) DEBUG TestFrameworkOrchestrator Using testFramework mocha based on `testFramework` setting
+02:51:05 (7352) INFO InitialTestExecutor Starting initial test run. This may take a while.
+02:51:05 (7352) DEBUG TranspilingLanguageService Pulling file into memory: C:/Repository/GitHub/HandsOn/RESTfulWebServicesWithTypeScript3/ch05/demo-test/node_modules/@types/chai/index.d.ts
+02:51:06 (7352) DEBUG TranspilingLanguageService Pulling file into memory: C:/Repository/GitHub/HandsOn/RESTfulWebServicesWithTypeScript3/ch05/demo-test/node_modules/@types/color-name/index.d.ts
+02:51:06 (7352) DEBUG TranspilingLanguageService Pulling file into memory: C:/Repository/GitHub/HandsOn/RESTfulWebServicesWithTypeScript3/ch05/demo-test/node_modules/@types/minimatch/index.d.ts
+02:51:06 (7352) DEBUG TranspilingLanguageService Pulling file into memory: C:/Repository/GitHub/HandsOn/RESTfulWebServicesWithTypeScript3/ch05/demo-test/node_modules/@types/mocha/index.d.ts
+02:51:06 (7352) DEBUG TranspilingLanguageService Resolving lib file lib.d.ts to C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\typescript\lib\lib.d.ts
+02:51:06 (7352) DEBUG TranspilingLanguageService Pulling file into memory: lib.d.ts
+02:51:06 (7352) DEBUG TranspilingLanguageService Resolving lib file lib.es5.d.ts to C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\typescript\lib\lib.es5.d.ts
+02:51:06 (7352) DEBUG TranspilingLanguageService Pulling file into memory: lib.es5.d.ts
+02:51:06 (7352) DEBUG TranspilingLanguageService Resolving lib file lib.dom.d.ts to C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\typescript\lib\lib.dom.d.ts
+02:51:06 (7352) DEBUG TranspilingLanguageService Pulling file into memory: lib.dom.d.ts
+02:51:07 (7352) DEBUG TranspilingLanguageService Resolving lib file lib.webworker.importscripts.d.ts to C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\typescript\lib\lib.webworker.importscripts.d.ts
+02:51:07 (7352) DEBUG TranspilingLanguageService Pulling file into memory: lib.webworker.importscripts.d.ts
+02:51:07 (7352) DEBUG TranspilingLanguageService Resolving lib file lib.scripthost.d.ts to C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\typescript\lib\lib.scripthost.d.ts
+02:51:07 (7352) DEBUG TranspilingLanguageService Pulling file into memory: lib.scripthost.d.ts
+02:51:08 (7352) DEBUG SourceMapper No source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\stryker.log"
+02:51:08 (7352) DEBUG SourceMapper No source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\.gitignore"
+02:51:08 (7352) DEBUG SourceMapper No source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\.vscode\launch.json"
+02:51:08 (7352) DEBUG SourceMapper No source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\README.md"
+02:51:08 (7352) DEBUG SourceMapper No source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\package.json"
+02:51:08 (7352) DEBUG SourceMapper No source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\stryker.conf.js"
+02:51:08 (7352) DEBUG SourceMapper No source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\tsconfig.json"
+02:51:08 (7352) DEBUG SourceMapper Source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\src\Store.js"
+02:51:08 (7352) DEBUG SourceMapper No source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\src\Store.js.map"
+02:51:08 (7352) DEBUG SourceMapper Source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\test\store.spec.js"
+02:51:08 (7352) DEBUG SourceMapper No source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\test\store.spec.js.map"
+02:51:08 (7352) DEBUG SourceMapper Source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\src\app.js"
+02:51:08 (7352) DEBUG SourceMapper No source map url found in transpiled file "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\src\app.js.map"
+02:51:08 (7352) DEBUG InitialTestExecutor Transpiled files: [
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\stryker.log",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\.gitignore",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\.vscode\\launch.json",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\README.md",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\package.json",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\stryker.conf.js",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\tsconfig.json",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\src\\Store.js",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\src\\Store.js.map",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\test\\store.spec.js",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\test\\store.spec.js.map",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\src\\app.js",
+  "C:\\Repository\\GitHub\\HandsOn\\RESTfulWebServicesWithTypeScript3\\ch05\\demo-test\\src\\app.js.map"
+]
+02:51:08 (7352) DEBUG Sandbox Creating a sandbox for files in C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\.stryker-tmp\sandbox8745759
+02:51:08 (7352) DEBUG Sandbox Creating test runner 0
+02:51:08 (7352) DEBUG ChildProcessProxy Starting C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\core\src\test-runner\ChildProcessTestRunnerWorker.js in child process 10468
+02:51:09 (7352) DEBUG InitialTestExecutor Adding test hooks for coverageAnalysis "perTest".
+02:51:09 (7352) DEBUG TimeoutDecorator Starting timeout timer (300000 ms) for a test run
+02:51:08 (10468) DEBUG ChildProcessProxyWorker Changing current working directory for this process to C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\.stryker-tmp\sandbox8745759
+02:51:08 (10468) DEBUG PluginLoader Loading @stryker-mutator/* from C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator
+02:51:08 (10468) DEBUG PluginLoader Loading plugin "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\mocha-framework" (matched with expression @stryker-mutator/*)
+02:51:08 (10468) DEBUG PluginLoader Loading plugin "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\mocha-runner" (matched with expression @stryker-mutator/*)
+02:51:08 (10468) DEBUG PluginLoader Loading plugin "C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\typescript" (matched with expression @stryker-mutator/*)
+02:51:08 (10468) DEBUG PluginLoader Loading plugins C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\mocha-framework
+02:51:08 (10468) DEBUG PluginLoader Loading plugins C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\mocha-runner
+02:51:09 (10468) DEBUG PluginLoader Loading plugins C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\typescript
+02:51:09 (10468) DEBUG PluginLoader Loading plugins C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\core\src\reporters\index.js
+02:51:09 (10468) DEBUG MochaTestRunner Mocha >= 6 detected. Using mocha's `handleFiles` to load files
+02:51:09 (10468) DEBUG MochaTestRunner Starting Mocha test run
+02:51:09 (10468) TRACE MochaTestRunner Test failed: Store deve verificar se a lista está vazia quando não há dados. Error: expected false to equal true
+02:51:09 (10468) DEBUG MochaTestRunner Mocha test run completed: 5/6 passed
+02:51:09 (7352) DEBUG ChildProcessProxy Disposing of worker process 10468
+02:51:09 (7352) DEBUG ChildProcessProxy Kill 10468
+02:51:10 (7352) ERROR InitialTestExecutor One or more tests failed in the initial test run:
+	Store deve verificar se a lista está vazia quando não há dados
+		expected false to equal true
+02:51:10 (7352) ERROR StrykerCli an error occurred Error: There were failed tests in the initial test run.
+    at InitialTestExecutor.validateResult (C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\core\src\process\InitialTestExecutor.js:69:27)
+    at InitialTestExecutor.run (C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\core\src\process\InitialTestExecutor.js:41:14)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+    at async Stryker.runMutationTest (C:\Repository\GitHub\HandsOn\RESTfulWebServicesWithTypeScript3\ch05\demo-test\node_modules\@stryker-mutator\core\src\Stryker.js:53:38)

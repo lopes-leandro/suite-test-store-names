@@ -1,20 +1,20 @@
-export class Queue<T> {
-    private _store: T[] = [];
+export class Store<T> {
+    private _db: T[] = [];
 
     constructor(initialData: Array<T> = []) {
-        this._store.push(...initialData);
+        this._db.push(...initialData);
     }
 
     push(val: T) {
-        this._store.push(val);
+        this._db.push(val);
     }
 
     pop(): T | undefined {
-        return this._store.pop();
+        return this._db.pop();
     }
 
     shift(): T | undefined {
-        return this._store.shift();
+        return this._db.shift();
     }
 
     isEmpty(): boolean {
@@ -22,6 +22,6 @@ export class Queue<T> {
     }
 
     size(): number {
-        return this._store.length;
+        return this._db.length;
     }
 }

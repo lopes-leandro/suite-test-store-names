@@ -4,11 +4,12 @@
 module.exports = {
   mutator: "typescript",
   packageManager: "npm",
-  reporters: ["html", "progress", "dashboard"],
+  reporters: ['clear-text', 'progress', 'dots', 'dashboard', 'html'],
+  testFramework: "mocha",
   testRunner: "mocha",
   transpilers: ["typescript"],
-  testFramework: "mocha",
   coverageAnalysis: "perTest",
   tsconfigFile: "tsconfig.json",
   mutate: ["src/**/*.ts"],
+  plugins: ['@stryker-mutator/*']
 };
